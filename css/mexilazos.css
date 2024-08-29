@@ -51,9 +51,12 @@ body, html {
     background-image: url(../img/banner-mexilazos-xs.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
     padding: 160px 0 80px 0;
     min-height: 550px;
+    width: 100%;
+    height: auto;
 }
 
 .hero-days {
