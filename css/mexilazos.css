@@ -1,5 +1,12 @@
+:root {
+    --first-color: #F5F5F5;;
+    --background-color: #050505;
+    --accent-color: #00F68A;
+}
+
 body, html {
     font-family: "Lato", sans-serif;
+    font-size: 20px;
 }
 
 .nav-item .nav-link {
@@ -127,6 +134,11 @@ H1 {
     margin: 12px 0 20px 0;
 }
 
+p {
+    font-size: 1.2rem;
+    max-width: 900px;
+}
+
 .content {
     font-size: 18px;
     line-height: 28px;
@@ -172,6 +184,26 @@ H1 {
     font-size: 28px;
     color: #000000;
     font-weight: bold;
+}
+
+.minicurso {
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F5F5F5;
+}
+
+.ponente {
+    color: var(--accent-color);
+}
+
+.lugar {
+    margin-left: 12px;
+    color: #878787;
 }
 
 .curso {
@@ -313,7 +345,7 @@ H1 {
 }
 
 li {
-    color: #878787;
+    font-size: 20px;
 }
 
 .contacto-container {
@@ -361,6 +393,10 @@ li {
 
 .white {
     color: white;
+}
+
+li {
+    color: #878787;
 }
 
 .sponsor {
