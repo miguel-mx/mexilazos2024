@@ -6,7 +6,6 @@
 
 body, html {
     font-family: "Lato", sans-serif;
-    font-size: 20px;
 }
 
 .nav-item .nav-link {
@@ -139,7 +138,7 @@ H1 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 16px;
     max-width: 900px;
 }
 
@@ -191,22 +190,22 @@ p {
 }
 
 .minicurso {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 24px;
 }
 
 .titulo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #F5F5F5;
 }
 
 .ponente {
+
     color: var(--accent-color);
 }
 
 .lugar {
-    margin-left: 12px;
     color: #878787;
 }
 
@@ -349,7 +348,8 @@ p {
 }
 
 li {
-    font-size: 20px;
+    font-size: 16px;
+    color: #878787;
 }
 
 .contacto-container {
@@ -399,10 +399,6 @@ li {
     color: white;
 }
 
-li {
-    color: #878787;
-}
-
 .sponsor {
     margin-bottom: 4rem;
 }
@@ -421,6 +417,16 @@ li {
 
 @media (min-width: 768px) {
 
+    body, html {
+        font-family: "Lato", sans-serif;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        max-width: 900px;
+    }
+
     .navbar-nav {
         min-height: 100px;
     }
@@ -432,7 +438,7 @@ li {
         background-position: center;
         position: relative;
         padding: 160px 0 80px 0;
-        min-height: 550px;
+        min-height: 600px;
         width: 100%;
         height: auto;
     }
@@ -482,6 +488,26 @@ li {
         line-height: 28px;
         letter-spacing: 0;
         color: #202020;
+    }
+
+    .minicurso {
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .titulo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #F5F5F5;
+    }
+
+    .lugar {
+        color: #878787;
+        margin-left: 8px;
+    }
+
+    li {
+        font-size: 20px;
     }
 
 }
