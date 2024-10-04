@@ -128,6 +128,13 @@ body, html {
     padding-bottom: 60px;
 }
 
+#outro {
+    background-color: #050505;
+    color: #F5F5F5;
+    padding-bottom: 60px;
+}
+
+
 H1 {
     font-size: 36px;
     font-weight: 700;
