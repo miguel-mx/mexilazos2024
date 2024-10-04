@@ -259,11 +259,12 @@ p {
 
 #schedule {
     padding: 70px 0;
-    background-color: #FFFFFF;
+    background-color: #212121;
+    color: #000000;
 }
 
 #schedule h1 {
-    color: #282828;
+    color: #e7e7e7;
 }
 
 .schedule-time {
